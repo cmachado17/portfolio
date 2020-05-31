@@ -1,13 +1,15 @@
 import React from "react";
 import Nav from "react-bootstrap/Nav";
 import Image from "react-bootstrap/Image";
-import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
+
 const BarraNavegacion = () => {
+
   return (
+      <>
     <Nav className="bg-success flex-column altura-nav">
-      <div className="my-5 p-2">
+      <div className="my-5 p-2 text-center">
         <Image
           src="https://img.freepik.com/foto-gratis/pensativo-cliente-pensando-oferta-especial_74855-3588.jpg?size=626&ext=jpg"
           rounded
@@ -26,6 +28,7 @@ const BarraNavegacion = () => {
         </Col>
     
     </Nav>
+    </>
   );
 };
 

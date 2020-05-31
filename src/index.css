@@ -15,3 +15,15 @@ code {
 .altura-nav{
   height: 100vh;
 }
+
+@media (min-width: 768px) {
+  .collapse.dont-collapse-sm {
+    display: block;
+    height: auto !important;
+    visibility: visible;
+  }
+}
+
+.altura-carousel{
+  height: 300px;
+}
