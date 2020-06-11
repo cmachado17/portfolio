@@ -1,34 +1,26 @@
 import React from "react";
+import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
-import Image from "react-bootstrap/Image";
-import Col from "react-bootstrap/Col";
-
+import logo from "./styles/img/aventuras.png";
 
 const BarraNavegacion = () => {
-
   return (
-      <>
-    <Nav className="bg-success flex-column altura-nav">
-      <div className="my-5 p-2 text-center">
-        <Image
-          src="https://img.freepik.com/foto-gratis/pensativo-cliente-pensando-oferta-especial_74855-3588.jpg?size=626&ext=jpg"
-          rounded
-          className="img-fluid"
-        />
-      </div>
-        <Col className="float-to-top text-center">
-          <p className="h3">Cristian Machado</p>
-        </Col>
-        <Col className="float-to-bottom text-center">
-          <Nav.Link>SOBRE MI</Nav.Link>
-          <Nav.Link>PROYECTOS</Nav.Link>
-          <Nav.Link>EDUCACION</Nav.Link>
-          <Nav.Link>EXPERIENCIA LABORAL</Nav.Link>
-          <Nav.Link>CONTACTO</Nav.Link>
-        </Col>
-    
-    </Nav>
-    </>
+    <Navbar expand="lg" bg="dark" variant="dark">
+      <Navbar.Brand href="/">
+        <img src={logo} className="logo" />
+        <Navbar.Text>Cristian Machado</Navbar.Text>
+      </Navbar.Brand>
+      <Navbar.Toggle aria-controls="basic-navbar-nav" />
+      <Navbar.Collapse>
+        <Nav variant="dark" className="text-center">
+          <Nav.Link href="#">SOBRE MI</Nav.Link>
+          <Nav.Link href="#">PROYECTOS</Nav.Link>
+          <Nav.Link href="#">EXPERIENCIA</Nav.Link>
+          <Nav.Link href="#">EDUCACIÓN</Nav.Link>
+          <Nav.Link href="#">CONTACTAME</Nav.Link>
+        </Nav>
+      </Navbar.Collapse>
+    </Navbar>
   );
 };
 

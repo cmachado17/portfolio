@@ -11,6 +11,21 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.contenedor-imagen{
+  position: absolute;
+  text-align: center;
+  margin-top:10%;
+}
+.foto-personal{
+  height: 22%;
+  width: 22%;
+}
+
+.logo{
+  margin: 0 10px;
+  height: 50px;
+  width: 50px;
+}
 
 .altura-nav{
   height: 100vh;
