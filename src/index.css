@@ -11,11 +11,29 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.text-typing{
+  animation: type 1s steps(52);
+  overflow: hidden;
+  white-space: nowrap;
+}
+@keyframes type{
+  0%{
+    width: 0ch;
+  }
+  50%{
+    width: 11ch;
+  }
+  100%{
+    width: 22ch;
+  }
+}
+
 .contenedor-imagen{
   position: absolute;
   text-align: center;
   margin-top:10%;
 }
+
 .foto-personal{
   height: 22%;
   width: 22%;

@@ -5,11 +5,15 @@ import Image from "react-bootstrap/Image";
 
 const Header = () => {
   return (
-    <div >
+    <div>
       <div className="contenedor-imagen">
         <Image src={FotoPersonal} roundedCircle className="foto-personal" />
-        <h3>Cristian Machado</h3>
-        <h4>Desarrollador web</h4>
+        <div className="text-center text-typing m-auto">
+          <p className="h3">Cristian Machado</p>
+          <p className="h4">Desarrollador web</p>
+        </div>
+        {/* <h3 className="text-typing"></h3>
+        <h4 className="text-typing2"></h4> */}
       </div>
       <Particles
         params={{
@@ -50,7 +54,7 @@ const Header = () => {
               },
             },
             size: {
-              value: 3,
+              value: 2,
               random: true,
               anim: {
                 enable: false,
@@ -68,7 +72,7 @@ const Header = () => {
             },
             move: {
               enable: true,
-              speed: 6,
+              speed: 5,
               direction: "none",
               random: false,
               straight: false,
