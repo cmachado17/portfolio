@@ -28,6 +28,17 @@ code {
   }
 }
 
+.barra-navegacion a{
+  text-decoration: none;
+  color: white;
+}
+
+.barra-navegacion a:hover{
+  background-color: rgba(245, 245, 245, 0.192);
+}
+
+
+
 .contenedor-imagen{
   position: absolute;
   text-align: center;

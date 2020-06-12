@@ -7,15 +7,15 @@ import { Link } from "react-router-dom";
 const BarraNavegacion = () => {
   return (
     <Navbar expand="lg" bg="dark" variant="dark" className="sticky-top">
-      <Navbar.Brand href="/">
-        <Link to="/">
+      <Link to="/">
+        <Navbar.Brand>
           <img src={logo} className="logo" />
-          <Navbar.Text>Cristian Machado</Navbar.Text>
-        </Link>
-      </Navbar.Brand>
+          <Navbar.Text className="font-weight-bold text-white">Cristian Machado</Navbar.Text>
+        </Navbar.Brand>
+      </Link>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse>
-        <Nav variant="dark" className="text-center">
+        <Nav variant="dark" className="text-center barra-navegacion">
           <Nav.Link href="#">SOBRE MI</Nav.Link>
           <Nav.Link>
             <Link to="/proyectos">PROYECTOS</Link>
