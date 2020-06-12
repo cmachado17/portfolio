@@ -11,6 +11,7 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
 .text-typing{
   animation: type 1s steps(52);
   overflow: hidden;
@@ -69,5 +70,5 @@ code {
 }
 
 .altura-carousel{
-  height: 70%;
+  height: 65%;
 }
