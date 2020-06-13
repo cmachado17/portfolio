@@ -20,7 +20,7 @@ const BarraNavegacion = () => {
         <Nav variant="dark" className="ml-auto text-center barra-navegacion">
           <Link to="/sobremi">SOBRE MI</Link>
           <Link to="/proyectos">PROYECTOS</Link>
-          <Link to="/experiencia" href="#experiencia">EXPERIENCIA</Link>
+          <Link to="/experiencia">EXPERIENCIA</Link>
           <Nav.Link href="#">EDUCACIÓN</Nav.Link>
           <Nav.Link href="#">CONTACTAME</Nav.Link>
         </Nav>

@@ -1,16 +1,17 @@
 import React, { Fragment } from "react";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import Card from "react-bootstrap/Card";
-import Button from "react-bootstrap/Button";
 import Cadete from "./styles/img/presupuesto.png";
 import Representante from "./styles/img/agente-de-centro-de-llamadas.png";
 import Entrenador from "./styles/img/comida-rapida.png";
 import Crew from "./styles/img/mcdonalds.png";
 
+
 const Experiencia = () => {
+
   return (
     <Fragment>
+
       <div className="mt-3 pb-1 text-center bg-dark text-white encabezado" id="experiencia">
         <h2>Experiencia</h2>
       </div>
@@ -93,6 +94,7 @@ const Experiencia = () => {
           </Col>
         </Row>
       </div>
+
     </Fragment>
   );
 };

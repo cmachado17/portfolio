@@ -32,6 +32,8 @@ code {
 .barra-navegacion a{
   text-decoration: none;
   color: white;
+  margin: 0 10px;
+  padding: 8px;
 }
 
 .barra-navegacion a:hover{
@@ -69,6 +71,13 @@ code {
 
 .altura-carousel{
   height: 65%;
+}
+.carousel li{
+  background-color: rgba(255, 255, 255, 0) !important;
+}
+.img-tecnologia{
+  width: 3.5rem;
+  height: 3.5rem;
 }
 
 .flip-card {
