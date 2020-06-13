@@ -7,6 +7,7 @@ import anotadorLlamadas from "./styles/img/anotador-llamadas.png";
 import gastoSemanal from "./styles/img/gasto-semanal.png";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import Image from 'react-bootstrap/Image';
 
 const Carrusel = () => {
   return (
@@ -16,7 +17,7 @@ const Carrusel = () => {
       </div>
       <Carousel className="container mt-3">
         <Carousel.Item>
-          <img
+          <Image rounded
             className="d-block w-100 altura-carousel"
             src={reactAdvisor}
             alt="React-Advisor"
@@ -43,16 +44,20 @@ const Carrusel = () => {
           </div>
         </Carousel.Item>
         <Carousel.Item>
-          <img
+          <Image rounded
             className="d-block w-100 altura-carousel"
             src={gastoSemanal}
             alt="Gasto semanal"
           />
           <div>
-            <div className="text-center">
-              <h3>Gasto Semanal</h3>
-              <p>Barrita de tecnologias usadas</p>
-            </div>
+            <Row className="text-center">
+              <Col sm={12} md={5}>
+                <h3>Gasto Semanal</h3>
+              </Col>
+              <Col sm={12} md={7}>
+                <p>Barrita de tecnologias usadas</p>
+              </Col>
+            </Row>
 
             <p>
               React-Advisor es el proyecto final que entregue en el curso de
@@ -66,16 +71,20 @@ const Carrusel = () => {
           </div>
         </Carousel.Item>
         <Carousel.Item>
-          <img
+          <Image rounded
             className="d-block w-100 altura-carousel"
             src={anotadorLlamadas}
             alt="Anotador Llamadas"
           />
           <div>
-            <div className="text-center">
-              <h3>Anotador Llamadas</h3>
-              <p>Barrita de tecnologias usadas</p>
-            </div>
+            <Row className="text-center">
+              <Col sm={12} md={5}>
+                <h3>Anotador Llamadas</h3>
+              </Col>
+              <Col sm={12} md={7}>
+                <p>Barrita de tecnologias usadas</p>
+              </Col>
+            </Row>
 
             <p>
               React-Advisor es el proyecto final que entregue en el curso de
@@ -89,16 +98,20 @@ const Carrusel = () => {
           </div>
         </Carousel.Item>
         <Carousel.Item>
-          <img
+          <Image rounded
             className="d-block w-100 altura-carousel"
             src={gastoSemanal}
             alt="Gasto semanal"
           />
           <div>
-            <div className="text-center">
-              <h3>Gasto Semanal</h3>
-              <p>Barrita de tecnologias usadas</p>
-            </div>
+            <Row className="text-center">
+              <Col sm={12} md={5}>
+                <h3>Gasto Semanal</h3>
+              </Col>
+              <Col sm={12} md={7}>
+                <p>Barrita de tecnologias usadas</p>
+              </Col>
+            </Row>
 
             <p>
               React-Advisor es el proyecto final que entregue en el curso de
@@ -112,16 +125,20 @@ const Carrusel = () => {
           </div>
         </Carousel.Item>
         <Carousel.Item>
-          <img
+          <Image rounded
             className="d-block w-100 altura-carousel"
             src={NYSLPage}
             alt="NYSL Page"
           />
           <div>
-            <div className="text-center">
-              <h3>NYSL Page</h3>
-              <p>Barrita de tecnologias usadas</p>
-            </div>
+            <Row className="text-center">
+              <Col sm={12} md={5}>
+                <h3>NYSL Page</h3>
+              </Col>
+              <Col sm={12} md={7}>
+                <p>Barrita de tecnologias usadas</p>
+              </Col>
+            </Row>
 
             <p>
               React-Advisor es el proyecto final que entregue en el curso de
@@ -135,16 +152,20 @@ const Carrusel = () => {
           </div>
         </Carousel.Item>
         <Carousel.Item>
-          <img
+          <Image rounded
             className="d-block w-100 altura-carousel"
             src={tgifPage}
             alt="TGIF government"
           />
           <div>
-            <div className="text-center">
-              <h3>TGIF government page</h3>
-              <p>Barrita de tecnologias usadas</p>
-            </div>
+            <Row className="text-center">
+              <Col sm={12} md={5}>
+                <h3>TGIF government page</h3>
+              </Col>
+              <Col sm={12} md={7}>
+                <p>Barrita de tecnologias usadas</p>
+              </Col>
+            </Row>
 
             <p>
               React-Advisor es el proyecto final que entregue en el curso de

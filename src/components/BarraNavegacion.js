@@ -9,13 +9,13 @@ const BarraNavegacion = () => {
     <Navbar expand="lg" bg="dark" variant="dark" className="sticky-top">
       <Link to="/">
         <Navbar.Brand>
-          <img src={logo} className="logo" />
+          <img src={logo} className="logo" alt="logo"/>
           <Navbar.Text className="font-weight-bold text-white">Cristian Machado</Navbar.Text>
         </Navbar.Brand>
       </Link>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse>
-        <Nav variant="dark" className="text-center barra-navegacion">
+        <Nav variant="dark" className="ml-auto text-center barra-navegacion">
           <Nav.Link href="#">SOBRE MI</Nav.Link>
           <Nav.Link>
             <Link to="/proyectos">PROYECTOS</Link>
