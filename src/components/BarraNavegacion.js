@@ -16,7 +16,9 @@ const BarraNavegacion = () => {
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse>
         <Nav variant="dark" className="ml-auto text-center barra-navegacion">
-          <Nav.Link href="#">SOBRE MI</Nav.Link>
+          <Nav.Link>
+            <Link to="/sobremi">SOBRE MI</Link>
+            </Nav.Link>
           <Nav.Link>
             <Link to="/proyectos">PROYECTOS</Link>
           </Nav.Link>
