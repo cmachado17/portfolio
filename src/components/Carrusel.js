@@ -76,13 +76,7 @@ const Carrusel = () => {
             </Row>
 
             <p>
-              React-Advisor es el proyecto final que entregue en el curso de
-              Desarrollo de aplicaciones en React Js en Comunidad IT. Esta
-              pensando como una red social en la que se pueden registrar y hacer
-              reseñas sobre lugares de comida, bares, heladerias, etc. Ademas
-              cuenta con un apartado de administracion en el que se pueden
-              moderar/borrar los comentarios, dar de alta o de baja a nuevos
-              lugares, eliminar usuarios y una casilla de contacto.
+              Este es un proyecto que saque de un curso de la plataforma Udemy que me encuentro realizando sobre React Hooks, Redux y el stack MERN. En el mismo se ingresa un monto inicial de dinero, luego se van ingresando los gastos con una descripción y el programa calcula cual es el balance de tu presupuesto inicial, te va mostrando el historico de gastos ingresados y te advierte con colores según el porcentaje de presupuesto restante.
             </p>
           </div>
         </Carousel.Item>
@@ -107,13 +101,7 @@ const Carrusel = () => {
             </Row>
 
             <p>
-              React-Advisor es el proyecto final que entregue en el curso de
-              Desarrollo de aplicaciones en React Js en Comunidad IT. Esta
-              pensando como una red social en la que se pueden registrar y hacer
-              reseñas sobre lugares de comida, bares, heladerias, etc. Ademas
-              cuenta con un apartado de administracion en el que se pueden
-              moderar/borrar los comentarios, dar de alta o de baja a nuevos
-              lugares, eliminar usuarios y una casilla de contacto.
+            Es un registro de llamadas en el cual cuenta con una validación de que todos los campos del formulario son requeridos. Además de mostrarnos todos los registros que vamos ingresando, se pueden borrar. También usa LocalStorage para mantener lo ingresado.
             </p>
           </div>
         </Carousel.Item>
@@ -138,13 +126,7 @@ const Carrusel = () => {
             </Row>
 
             <p>
-              React-Advisor es el proyecto final que entregue en el curso de
-              Desarrollo de aplicaciones en React Js en Comunidad IT. Esta
-              pensando como una red social en la que se pueden registrar y hacer
-              reseñas sobre lugares de comida, bares, heladerias, etc. Ademas
-              cuenta con un apartado de administracion en el que se pueden
-              moderar/borrar los comentarios, dar de alta o de baja a nuevos
-              lugares, eliminar usuarios y una casilla de contacto.
+              Página institucional sobre una liga de futbol soccer. Es un proyecto que realice para el Bootcamp de desarrollo web. Esta hecho con HTML, CSS, JavaScript y jQuery, alojado en Firebase. Responsive. Además cuenta con un registro en el cual se podran visualizar y acceder a realizar comentarios sobre la liga.
             </p>
           </div>
         </Carousel.Item>
@@ -169,13 +151,7 @@ const Carrusel = () => {
             </Row>
 
             <p>
-              React-Advisor es el proyecto final que entregue en el curso de
-              Desarrollo de aplicaciones en React Js en Comunidad IT. Esta
-              pensando como una red social en la que se pueden registrar y hacer
-              reseñas sobre lugares de comida, bares, heladerias, etc. Ademas
-              cuenta con un apartado de administracion en el que se pueden
-              moderar/borrar los comentarios, dar de alta o de baja a nuevos
-              lugares, eliminar usuarios y una casilla de contacto.
+         Proyecto realizado para el bootcamp de desarrollo web. Pagina web sobre los congresistas de Estados Unidos, obtenidos a traves de una API, la petición se realiza a traves de Vue.js.
             </p>
           </div>
         </Carousel.Item>

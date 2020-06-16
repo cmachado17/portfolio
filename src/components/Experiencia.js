@@ -6,13 +6,13 @@ import Representante from "./styles/img/agente-de-centro-de-llamadas.png";
 import Entrenador from "./styles/img/comida-rapida.png";
 import Crew from "./styles/img/mcdonalds.png";
 
-
 const Experiencia = () => {
-
   return (
     <Fragment>
-
-      <div className="mt-3 pb-1 text-center bg-dark text-white encabezado" id="experiencia">
+      <div
+        className="mt-3 pb-1 text-center bg-dark text-white encabezado"
+        id="experiencia"
+      >
         <h2>Experiencia</h2>
       </div>
       <div className="container">
@@ -45,10 +45,9 @@ const Experiencia = () => {
                 <h4>Comdata S.A.</h4>
                 <p>2014 - 2014</p>
                 <ul>
-                  <li>Presentacion de documentos</li>
-                  <li>Elaboracion de presentaciones</li>
-                  <li>Retiro de pagos</li>
-                  <li>Control de legajos</li>
+                  <li>Atención al cliente</li>
+                  <li>Manejo de reclamos</li>
+                  <li>Fidelización</li>
                 </ul>
               </div>
             </div>
@@ -65,10 +64,10 @@ const Experiencia = () => {
                 <h4>Mostaza y pan S.A.</h4>
                 <p>2013 - 2014</p>
                 <ul>
-                  <li>Presentacion de documentos</li>
-                  <li>Elaboracion de presentaciones</li>
-                  <li>Retiro de pagos</li>
-                  <li>Control de legajos</li>
+                  <li>Capacitación de nuevos empleados</li>
+                  <li>Manejo de caja</li>
+                  <li>Despacho de pedidos</li>
+                  <li>Elaboración de productos</li>
                 </ul>
               </div>
             </div>
@@ -77,24 +76,21 @@ const Experiencia = () => {
             <div className="flip-card-inner">
               <div className="flip-card-front">
                 <h4>Crew</h4>
-               
+
                 <img src={Crew} alt="Avatar" className="img-fluid" />
               </div>
               <div className="flip-card-back">
                 <h4>Arcos Dorados S.A.</h4>
                 <p>2012 - 2012</p>
                 <ul>
-                  <li>Presentacion de documentos</li>
-                  <li>Elaboracion de presentaciones</li>
-                  <li>Retiro de pagos</li>
-                  <li>Control de legajos</li>
+                  <li>Atención al cliente</li>
+                  <li>Elaboración de pedidos</li>
                 </ul>
               </div>
             </div>
           </Col>
         </Row>
       </div>
-
     </Fragment>
   );
 };
