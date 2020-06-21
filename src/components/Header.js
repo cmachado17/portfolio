@@ -5,7 +5,7 @@ import Image from "react-bootstrap/Image";
 
 const Header = () => {
   return (
-    <div>
+    <div id="home">
       <div className="contenedor-imagen">
         <Image src={FotoPersonal} roundedCircle className="foto-personal" />
         <div className="text-center text-typing m-auto">

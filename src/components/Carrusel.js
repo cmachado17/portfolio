@@ -20,7 +20,7 @@ import reactLogo from './styles/img/react.png';
 const Carrusel = () => {
   return (
     <Fragment>
-      <div className="mt-3 pb-1 text-center bg-dark text-white encabezado">
+      <div className="mt-3 pb-1 text-center bg-dark text-white encabezado" id="proyectos">
         <h2>Proyectos</h2>
       </div>
       <Carousel className="container mt-3 carousel">

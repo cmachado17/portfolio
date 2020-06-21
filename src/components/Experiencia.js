@@ -13,7 +13,7 @@ const Experiencia = () => {
         className="mt-3 pb-1 text-center bg-dark text-white encabezado"
         id="experiencia"
       >
-        <h2>Experiencia</h2>
+        <h2>Experiencia laboral</h2>
       </div>
       <div className="container">
         <Row className="mt-5 mb-3">

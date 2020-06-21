@@ -31,13 +31,14 @@ code {
 
 .barra-navegacion a{
   text-decoration: none;
-  color: white;
+  color: white !important;
   margin: 0 10px;
   padding: 8px;
 }
 
 .barra-navegacion a:hover{
   background-color: rgba(245, 245, 245, 0.192);
+  cursor: pointer;
 }
 
 .contenedor-imagen{

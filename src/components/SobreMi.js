@@ -7,7 +7,7 @@ import Nav from 'react-bootstrap/Nav';
 const SobreMi = () => {
   return (
     <Fragment>
-      <div className="mt-3 pb-1 text-center bg-dark text-white encabezado">
+      <div className="mt-3 pb-1 text-center bg-dark text-white encabezado" id="aboutme">
         <h2>Sobre Mi</h2>
       </div>
       <div className="container">

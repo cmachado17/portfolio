@@ -5,16 +5,26 @@ const Home = () => {
   return (
     <Fragment>
       <div className="mt-3 pb-1 text-center bg-dark text-white encabezado">
-        <h2>Bienvenidos</h2>
+        <h2>Hola mundo!</h2>
       </div>
       <div className="container">
-        <Jumbotron>
-          <h1>Hello, world!</h1>
+        <Jumbotron className="my-3">
           <p>
-            This is a simple hero unit, a simple jumbotron-style component for
-            calling extra attention to featured content or information.
+            Bienvenidos a mi portfolio. Este es un proyecto que tenia hace rato
+            en mente en el cual busco mostrar y contar lo que vengo haciendo
+            ultimamente.
           </p>
-          <p></p>
+          <p>
+            Mi objetivo actualmente es encontrar mi primera oportunidad laboral
+            en el area de IT, en la que me vengo especializando hace ya unos
+            meses a traves de la facultad y de manera autodidacta. Después de
+            pasar por varias carreras a lo largo de los ultimos años, encontre
+            en la programación lo que queria hacer todos los dias.
+          </p>
+          <p>
+            Los invito a conocer un poco sobre mi y los proyectos que fui
+            armando a modo de practica.
+          </p>
         </Jumbotron>
       </div>
     </Fragment>
