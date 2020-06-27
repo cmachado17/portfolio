@@ -10,7 +10,7 @@ const Experiencia = () => {
   return (
     <Fragment>
       <div
-        className="Container"
+        className="container"
         id="experiencia"
       >
        <Row className="text-center mt-5 mb-5 text-white">

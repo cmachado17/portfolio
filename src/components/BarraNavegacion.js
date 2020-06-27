@@ -2,10 +2,17 @@ import React from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import logo from "./styles/img/aventuras.png";
+import Headroom from 'react-headroom'
 import { Link } from "react-scroll";
 
 const BarraNavegacion = () => {
   return (
+    <Headroom style={{
+      WebkitTransition: 'all .5s ease-in-out',
+      MozTransition: 'all .5s ease-in-out',
+      OTransition: 'all .5s ease-in-out',
+      transition: 'all .5s ease-in-out',
+    }}>
     <Navbar expand="lg" className="navbar sticky-top">
       <Link to="home" smooth={true} duration={1000}>
         <Navbar.Brand>
@@ -37,6 +44,7 @@ const BarraNavegacion = () => {
         </Nav>
       </Navbar.Collapse>
     </Navbar>
+    </Headroom>
   );
 };
 

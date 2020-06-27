@@ -9,11 +9,9 @@ const Header = () => {
       <div className="contenedor-imagen">
         <Image src={FotoPersonal} roundedCircle className="foto-personal" />
         <div className="text-center text-typing m-auto text-white">
-          <p className="h3">Cristian Machado</p>
-          <p className="h4">Desarrollador web</p>
+          <p className="my-0">Cristian Machado</p>
+          <p className="my-0">Desarrollador web</p>
         </div>
-        {/* <h3 className="text-typing"></h3>
-        <h4 className="text-typing2"></h4> */}
       </div>
       <Particles
         params={{
