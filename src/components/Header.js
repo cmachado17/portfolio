@@ -68,7 +68,7 @@ const Header = () => {
               "distance": 120,
               "color": "#1af5a7",
               "opacity": 0.17,
-              "width": 5.208374434773
+              "width": 2
             },
             "move": {
               "enable": true,

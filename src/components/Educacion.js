@@ -2,32 +2,37 @@ import React, { Fragment, useState } from "react";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Button from "react-bootstrap/Button";
-import ModalCertificado from './ModalCertificado';
+import ModalCertificado from "./ModalCertificado";
 
 const Educacion = () => {
+  const [abrirModal, setAbrirModal] = useState(false);
 
-    const [abrirModal, setAbrirModal] = useState(false);
+  const handleAbrirModal = (e) => {
+    setAbrirModal(true);
+  };
 
-    const handleAbrirModal = (e) => {
-        setAbrirModal(true)
-    }
-    
-    const handleCerrarModal = (e) => {
-        setAbrirModal(false);
-    }
+  const handleCerrarModal = (e) => {
+    setAbrirModal(false);
+  };
 
   return (
     <Fragment>
       <div
-        className="my-5 pb-1 text-center bg-dark text-white encabezado"
+        className="container my-5"
         id="educacion"
       >
-        <h2>Educación</h2>
+        <Row className="text-center mt-3 mb-5 text-white">
+          <Col xs={12}>
+            <h2>Educación</h2>
+            <div className="separador"></div>
+          </Col>
+        </Row>
       </div>
-      <div className="container text-center">
+      <div className="container text-center text-white grey-border pt-5">
         <h3>Educación academica</h3>
-        <Row>
-          <Col sm={12} md={6}>
+        <div className="separador"></div>
+        <Row className="my-5">
+          <Col sm={12} md={6} >
             <h4>Tecnico en programación informatica</h4>
             <p>Universidad Nacional de San Martin</p>
             <p>2019 - 2022</p>
@@ -39,22 +44,29 @@ const Educacion = () => {
           </Col>
         </Row>
         <h3>Educación complementaria</h3>
-        <Row>
+        <div className="separador"></div>
+        <Row className="my-5">
+
           <Col sm={12} md={6}>
             <h4>Desarrollo de aplicaciones en React</h4>
             <p>Comunidad IT</p>
             <p>2020 - 2020</p>
-            <Button variant="dark" onClick={handleAbrirModal}>Ver certificado</Button>
+            <Button className="btn-green-wather" onClick={handleAbrirModal}>
+              Ver certificado
+            </Button>
           </Col>
           <Col sm={12} md={6}>
             <h4>Desarrollo web full stack</h4>
             <p>Mindhub</p>
             <p>2019 - 2019</p>
-            <Button variant="dark">Ver certificado</Button>
+            <Button className="btn-green-wather">Ver certificado</Button>
           </Col>
         </Row>
       </div>
-      <ModalCertificado show={abrirModal} handleCerrarModal={handleCerrarModal}/>
+      <ModalCertificado
+        show={abrirModal}
+        handleCerrarModal={handleCerrarModal}
+      />
     </Fragment>
   );
 };

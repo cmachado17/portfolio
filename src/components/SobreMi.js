@@ -7,8 +7,14 @@ import Nav from 'react-bootstrap/Nav';
 const SobreMi = () => {
   return (
     <Fragment>
-      <div className="mt-3 pb-1 text-center bg-dark text-white encabezado" id="aboutme">
-        <h2>Sobre Mi</h2>
+      <div className="container" id="aboutme">
+      <Row className="text-center mt-3 mb-5 text-white">
+          <Col xs={12}>
+          <h2>Sobre Mi</h2>
+          <div className="separador"></div>
+          </Col>
+         
+        </Row>
       </div>
       <div className="container">
         <Tab.Container id="left-tabs-example" defaultActiveKey="first">

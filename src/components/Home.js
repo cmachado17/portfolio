@@ -18,7 +18,7 @@ const Home = () => {
         
       </div>
       <div className="container">
-        <Jumbotron className="my-5">
+        <Jumbotron className="my-5 grey-border">
           <p>
             Bienvenidos a mi portfolio. Este es un proyecto que tenia hace rato
             en mente en el cual busco mostrar y contar lo que vengo haciendo

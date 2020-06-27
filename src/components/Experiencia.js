@@ -10,20 +10,26 @@ const Experiencia = () => {
   return (
     <Fragment>
       <div
-        className="mt-3 pb-1 text-center bg-dark text-white encabezado"
+        className="Container"
         id="experiencia"
       >
-        <h2>Experiencia laboral</h2>
+       <Row className="text-center mt-5 mb-5 text-white">
+          <Col xs={12}>
+          <h2>Experiencia Laboral</h2>
+          <div className="separador"></div>
+          </Col>
+         
+        </Row>
       </div>
       <div className="container">
         <Row className="mt-5 mb-3">
           <Col md={12} lg={6} className="flip-card mb-3">
             <div className="flip-card-inner">
-              <div className="flip-card-front">
+              <div className="flip-card-front text-white">
                 <h4>Cadete Administrativo</h4>
                 <img src={Cadete} alt="Avatar" className="img-fluid" />
               </div>
-              <div className="flip-card-back">
+              <div className="flip-card-back grey-border">
                 <h4>Consultora Rago & Asociados</h4>
                 <p>2014 - Actualmente</p>
                 <ul>
@@ -37,11 +43,11 @@ const Experiencia = () => {
           </Col>
           <Col md={12} lg={6} className="flip-card mb-3">
             <div className="flip-card-inner">
-              <div className="flip-card-front">
+              <div className="flip-card-front text-white">
                 <h4>Representante de atención al cliente</h4>
                 <img src={Representante} alt="Avatar" className="img-fluid" />
               </div>
-              <div className="flip-card-back">
+              <div className="flip-card-back grey-border">
                 <h4>Comdata S.A.</h4>
                 <p>2014 - 2014</p>
                 <ul>
@@ -56,11 +62,11 @@ const Experiencia = () => {
         <Row className="mb-5 mt-3">
           <Col md={12} lg={6} className="flip-card mb-3">
             <div className="flip-card-inner">
-              <div className="flip-card-front">
+              <div className="flip-card-front text-white">
                 <h4>Entrenador</h4>
                 <img src={Entrenador} alt="Avatar" className="img-fluid" />
               </div>
-              <div className="flip-card-back">
+              <div className="flip-card-back grey-border">
                 <h4>Mostaza y pan S.A.</h4>
                 <p>2013 - 2014</p>
                 <ul>
@@ -74,12 +80,12 @@ const Experiencia = () => {
           </Col>
           <Col md={12} lg={6} className="flip-card mb-3">
             <div className="flip-card-inner">
-              <div className="flip-card-front">
+              <div className="flip-card-front text-white">
                 <h4>Crew</h4>
 
                 <img src={Crew} alt="Avatar" className="img-fluid" />
               </div>
-              <div className="flip-card-back">
+              <div className="flip-card-back grey-border">
                 <h4>Arcos Dorados S.A.</h4>
                 <p>2012 - 2012</p>
                 <ul>

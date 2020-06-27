@@ -7,7 +7,7 @@ import shortid from 'shortid';
 
 const Proyecto = ({ proyecto }) => {
   return (
-    <Card className="altura-cards mx-1">
+    <Card className="altura-cards mx-1 grey-border">
       <Card.Header>
         <Card.Img src={proyecto.imagen} />
       </Card.Header>
@@ -25,10 +25,10 @@ const Proyecto = ({ proyecto }) => {
       <Card.Footer className="text-center">
         <Row>
           <Col xs={6}>
-            <a className="btn btn-success" href={proyecto.repo} target="_blank">Github</a>
+            <a className="btn btn-green-wather" href={proyecto.repo} target="_blank">Github</a>
           </Col>
           <Col xs={6}>
-              {proyecto.demo.length>1 ?  <a className="btn btn-success" href={proyecto.demo} target="_blank">Demo</a>: null}
+              {proyecto.demo.length>1 ?  <a className="btn btn-green-wather" href={proyecto.demo} target="_blank">Demo</a>: null}
            
           </Col>
         </Row>
