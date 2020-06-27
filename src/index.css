@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(24, 25, 27) !important;
 }
 
 code {
@@ -29,16 +30,40 @@ code {
   }
 }
 
-.barra-navegacion a{
-  text-decoration: none;
-  color: white !important;
-  margin: 0 10px;
-  padding: 8px;
+/* Barra de navegacion */
+
+.navbar{
+  background-color: rgba(0, 0, 0, 0.986);
 }
 
-.barra-navegacion a:hover{
-  background-color: rgba(245, 245, 245, 0.192);
+.navbar-toggler{
+  background-color: rgb(34, 208, 149) !important;
+}
+
+.nav-links a {
+  color: white !important;
+  margin: 0 0.5rem;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+}
+
+.nav-links a:hover {
+  background-color: rgb(34, 208, 149);
+  color: black !important;
+  margin: 0 1rem;
   cursor: pointer;
+}
+.logo{
+  margin: 0 10px;
+  height: 50px;
+  width: 50px;
+}
+
+
+/* HEADER */
+
+#home{
+  background-color: #0e0725;
 }
 
 .contenedor-imagen{
@@ -52,23 +77,27 @@ code {
   width: 22%;
 }
 
-.logo{
-  margin: 0 10px;
-  height: 50px;
-  width: 50px;
-}
+/* HOME */
 
-.altura-nav{
-  height: 100vh;
+.separador{
+  
+  background-color: rgb(34, 208, 149);
+  height: 0.25rem;
+    width: 5.25rem;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.938rem;
 }
-
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
   .collapse.dont-collapse-sm {
     display: block;
     height: auto !important;
     visibility: visible;
   }
-}
+} */
+
+/* CAROUSEL */
 .altura-cards{
   min-height: 680px;
 }
@@ -83,6 +112,8 @@ code {
   width: 3.5rem;
   height: 3.5rem;
 }
+
+/* EXPERIENCIA */
 
 .flip-card {
   background-color: transparent;
@@ -127,6 +158,8 @@ code {
   color: white;
   transform: rotateY(180deg);
 }
+
+
 ul {
   text-align: justify;
   list-style-position: inside;

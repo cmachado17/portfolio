@@ -6,7 +6,7 @@ import { Link } from "react-scroll";
 
 const BarraNavegacion = () => {
   return (
-    <Navbar expand="lg" bg="dark" variant="dark">
+    <Navbar expand="lg" className="navbar sticky-top">
       <Link to="home" smooth={true} duration={1000}>
         <Navbar.Brand>
           <img src={logo} className="logo" alt="logo" />
@@ -18,7 +18,7 @@ const BarraNavegacion = () => {
       </Link>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse>
-        <Nav variant="dark" className="ml-auto text-center barra-navegacion">
+        <Nav className="ml-auto text-center nav-links">
           <Link to="proyectos" smooth={true} duration={1000} offset={100}>
             PROYECTOS
           </Link>

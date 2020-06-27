@@ -1,14 +1,24 @@
 import React, { Fragment } from "react";
 import Jumbotron from "react-bootstrap/Jumbotron";
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+
 
 const Home = () => {
   return (
     <Fragment>
-      <div className="mt-3 pb-1 text-center bg-dark text-white encabezado">
-        <h2>Hola mundo!</h2>
+      <div className="container">
+        <Row className="text-center mt-3 mb-5 text-white">
+          <Col xs={12}>
+          <h2>Hola mundo!</h2>
+          <div className="separador"></div>
+          </Col>
+         
+        </Row>
+        
       </div>
       <div className="container">
-        <Jumbotron className="my-3">
+        <Jumbotron className="my-5">
           <p>
             Bienvenidos a mi portfolio. Este es un proyecto que tenia hace rato
             en mente en el cual busco mostrar y contar lo que vengo haciendo

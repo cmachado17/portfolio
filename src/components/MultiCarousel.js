@@ -2,6 +2,8 @@ import React, { Fragment } from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import Proyecto from "./Proyecto";
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 //Fotos de proyectos
 import reactAdvisor from "./styles/img/reactadvisor.png";
@@ -89,9 +91,15 @@ const MultiCarousel = () => {
   return (
     <Fragment>
       <div id="proyectos"
-        className="my-5 pb-1 text-center bg-dark text-white encabezado"
+       className="container"
       >
-        <h2>Proyectos</h2>
+            <Row className="text-center mt-3 mb-5 text-white">
+          <Col xs={12}>
+          <h2>Proyectos</h2>
+          <div className="separador"></div>
+          </Col>
+         
+        </Row>
       </div>
       <Carousel responsive={responsive}>
         {proyectos.map((proyecto) => (
