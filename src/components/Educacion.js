@@ -47,7 +47,7 @@ const Educacion = () => {
         <div className="separador"></div>
         <Row className="my-5">
 
-          <Col sm={12} md={6}>
+          <Col sm={12} md={6}  className="my-3">
             <h4>Desarrollo de aplicaciones en React</h4>
             <p>Comunidad IT</p>
             <p>2020 - 2020</p>
@@ -55,7 +55,7 @@ const Educacion = () => {
               Ver certificado
             </Button>
           </Col>
-          <Col sm={12} md={6}>
+          <Col sm={12} md={6} className="my-3">
             <h4>Desarrollo web full stack</h4>
             <p>Mindhub</p>
             <p>2019 - 2019</p>
