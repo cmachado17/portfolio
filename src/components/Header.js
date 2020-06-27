@@ -40,7 +40,7 @@ const Header = () => {
               image: {
                 src: "img/github.svg",
                 width: 100,
-                height: 100,
+                height: 500,
               },
             },
             opacity: {

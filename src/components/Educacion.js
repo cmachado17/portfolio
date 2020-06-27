@@ -19,7 +19,7 @@ const Educacion = () => {
   return (
     <Fragment>
       <div
-        className="mt-3 pb-1 text-center bg-dark text-white encabezado"
+        className="my-5 pb-1 text-center bg-dark text-white encabezado"
         id="educacion"
       >
         <h2>Educación</h2>

@@ -1,12 +1,12 @@
 import React, { Fragment } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Carrusel from "./components/Carrusel";
 import BarraNavegacion from "./components/BarraNavegacion";
 import Header from "./components/Header";
 import Home from "./components/Home";
 import SobreMi from "./components/SobreMi";
 import Experiencia from "./components/Experiencia";
-import Educacion from './components/Educacion';
+import Educacion from "./components/Educacion";
+import MultiCarousel from "./components/MultiCarousel";
 
 function App() {
   return (
@@ -14,11 +14,10 @@ function App() {
       <BarraNavegacion />
       <Header />
       <Home />
-      <Carrusel/>
+      <MultiCarousel />
       <Educacion />
       <Experiencia />
-      <SobreMi />
-      
+      <SobreMi /> 
     </Fragment>
   );
 }
