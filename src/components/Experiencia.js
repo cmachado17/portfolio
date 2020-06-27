@@ -23,7 +23,7 @@ const Experiencia = () => {
       </div>
       <div className="container">
         <Row className="mt-5 mb-3">
-          <Col sm={12} md={12} lg={6} className="flip-card mb-3">
+          <Col xs={12} sm={12} md={12} lg={6} className="flip-card mb-3">
             <div className="flip-card-inner">
               <div className="flip-card-front text-white">
                 <h4>Cadete Administrativo</h4>
@@ -41,7 +41,7 @@ const Experiencia = () => {
               </div>
             </div>
           </Col>
-          <Col sm={12} md={12} lg={6} className="flip-card mb-3">
+          <Col xs={12} sm={12} md={12} lg={6} className="flip-card mb-3">
             <div className="flip-card-inner">
               <div className="flip-card-front text-white">
                 <h4>Representante de atención al cliente</h4>
@@ -60,7 +60,7 @@ const Experiencia = () => {
           </Col>
         </Row>
         <Row className="mb-5 mt-3">
-          <Col sm={12} md={12} lg={6} className="flip-card mb-3">
+          <Col xs={12} sm={12} md={12} lg={6} className="flip-card mb-3">
             <div className="flip-card-inner">
               <div className="flip-card-front text-white">
                 <h4>Entrenador</h4>
@@ -78,7 +78,7 @@ const Experiencia = () => {
               </div>
             </div>
           </Col>
-          <Col sm={12} md={12} lg={6} className="flip-card mb-3">
+          <Col xs={12} sm={12} md={12} lg={6} className="flip-card mb-3">
             <div className="flip-card-inner">
               <div className="flip-card-front text-white">
                 <h4>Crew</h4>
