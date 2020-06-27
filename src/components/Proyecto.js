@@ -2,7 +2,6 @@ import React from "react";
 import Card from "react-bootstrap/Card";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import Button from "react-bootstrap/Button";
 import shortid from 'shortid';
 
 const Proyecto = ({ proyecto }) => {
@@ -25,10 +24,10 @@ const Proyecto = ({ proyecto }) => {
       <Card.Footer className="text-center">
         <Row>
           <Col xs={6}>
-            <a className="btn btn-green-wather" href={proyecto.repo} target="_blank">Github</a>
+            <a className="btn btn-green-wather" href={proyecto.repo} target="noopener noreferrer">Github</a>
           </Col>
           <Col xs={6}>
-              {proyecto.demo.length>1 ?  <a className="btn btn-green-wather" href={proyecto.demo} target="_blank">Demo</a>: null}
+              {proyecto.demo.length>1 ?  <a className="btn btn-green-wather" href={proyecto.demo} target="noopener noreferrer">Demo</a>: null}
            
           </Col>
         </Row>

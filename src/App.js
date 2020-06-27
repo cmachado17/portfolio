@@ -7,6 +7,7 @@ import SobreMi from "./components/SobreMi";
 import Experiencia from "./components/Experiencia";
 import Educacion from "./components/Educacion";
 import MultiCarousel from "./components/MultiCarousel";
+import Contacto from "./components/Contacto";
 
 function App() {
   return (
@@ -17,7 +18,8 @@ function App() {
       <MultiCarousel />
       <Educacion />
       <Experiencia />
-      <SobreMi /> 
+      {/* <SobreMi />  */}
+      <Contacto />
     </Fragment>
   );
 }

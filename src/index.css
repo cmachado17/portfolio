@@ -109,13 +109,6 @@ code {
   border: 1px solid rgb(51, 51, 51) !important;
   color: white;
 }
-/* @media (min-width: 768px) {
-  .collapse.dont-collapse-sm {
-    display: block;
-    height: auto !important;
-    visibility: visible;
-  }
-} */
 
 /* CAROUSEL */
 .altura-cards {
@@ -132,12 +125,6 @@ code {
   background-color: rgb(48, 158, 121) !important;
 }
 
-/* .altura-carousel{
-  height: 65%;
-}
-.carousel li{
-  background-color: rgba(255, 255, 255, 0) !important;
-} */
 .img-tecnologia {
   width: 3.5rem;
   height: 3.5rem;
@@ -192,4 +179,23 @@ code {
 ul {
   text-align: justify;
   list-style-position: inside;
+}
+
+/* CONTACTO */
+
+.lista-contacto{
+  list-style-type: none;
+  font-size: 1rem;
+  font-weight: bold;
+  
+}
+.lista-contacto li{
+  word-wrap: break-word;
+}
+.lista-contacto a{
+  text-decoration: none;
+  color: white !important;
+}
+.lista-contacto i{
+  color: rgb(48, 158, 121) !important;
 }

@@ -38,7 +38,7 @@ const BarraNavegacion = () => {
           <Link to="aboutme" smooth={true} duration={1000}>
             SOBRE MI
           </Link>
-          <Link to="contactme" smooth={true} duration={1000}>
+          <Link to="contacto" smooth={true} duration={1000}>
             CONTACTAME
           </Link>
         </Nav>
