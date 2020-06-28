@@ -10,7 +10,7 @@ const Contacto = () => {
       <div className="container" id="contacto">
         <Row className="text-center mt-3 mb-5 text-white">
           <Col xs={12}>
-            <h2>Contactame</h2>
+            <h2>Contáctame</h2>
             <div className="separador"></div>
           </Col>
         </Row>
@@ -32,7 +32,7 @@ const Contacto = () => {
           </Col>
           <Col sm={12} md={6}>
             <a className="btn btn-block btn-green-wather" href={pdf} download="CVMachadoCristian">
-              Descarga mi Curriculum
+              Descargá mi Curriculum
             </a>
             <Button block className="btn-green-wather" href="#" target="noopener noreferrer">
               Escribime por Whatsapp

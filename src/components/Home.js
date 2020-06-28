@@ -27,13 +27,13 @@ const Home = () => {
           <p>
             Mi objetivo actualmente es encontrar mi primera oportunidad laboral
             en el area de IT, en la que me vengo especializando hace ya unos
-            meses a traves de la facultad y de manera autodidacta. Después de
-            pasar por varias carreras a lo largo de los ultimos años, encontre
-            en la programación lo que queria hacer todos los dias.
+            meses a través de la facultad y de manera autodidacta. Después de
+            pasar por varias carreras a lo largo de los ultimos años, encontré
+            en la programación lo que queria hacer todos los días.
           </p>
           <p>
             Los invito a conocer un poco sobre mi y los proyectos que fui
-            armando a modo de practica.
+            armando a modo de práctica.
           </p>
         </Jumbotron>
       </div>

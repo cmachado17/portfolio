@@ -39,7 +39,7 @@ const BarraNavegacion = () => {
             SOBRE MI
           </Link>
           <Link to="contacto" smooth={true} duration={1000}>
-            CONTACTAME
+            CONTÁCTAME
           </Link>
         </Nav>
       </Navbar.Collapse>

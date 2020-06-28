@@ -33,8 +33,8 @@ const Experiencia = () => {
                 <h4>Consultora Rago & Asociados</h4>
                 <p>2014 - Actualmente</p>
                 <ul>
-                  <li>Presentacion de documentos</li>
-                  <li>Elaboracion de presentaciones</li>
+                  <li>Presentación de documentos</li>
+                  <li>Elaboracón de presentaciones</li>
                   <li>Retiro de pagos</li>
                   <li>Control de legajos</li>
                 </ul>

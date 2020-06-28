@@ -26,7 +26,7 @@ const MultiCarousel = () => {
       nombre: "React Advisor",
       tecnologias: [reactLogo, nodejsLogo, mysqlLogo, javascriptLogo, cssLogo],
       descripcion:
-        "React-Advisor es el proyecto final que entregue en el curso de Desarrollo de aplicaciones en React Js en Comunidad IT. Esta pensandocomo una red social en la que se pueden registrar y hacer reseñas sobre lugares de comida, bares, heladerias, etc. Ademas cuenta con un apartado de administracion en el que se pueden moderar/borrar los comentarios, dar de alta o de baja a nuevos lugares, eliminar usuarios y una casilla de contacto.",
+        "React-Advisor es el proyecto final que entregue en el curso de Desarrollo de aplicaciones en React Js en Comunidad IT. Esta pensando como una red social en la que se pueden registrar y hacer reseñas sobre lugares de comida, bares, heladerias, etc. Además cuenta con un apartado de administracion en el que se pueden moderar/borrar los comentarios, dar de alta o de baja a nuevos lugares, eliminar usuarios y una casilla de contacto.",
       repo: "https://github.com/cmachado17/react_Advisor",
       demo: "",
     },
@@ -35,7 +35,7 @@ const MultiCarousel = () => {
       nombre: "Gasto Semanal",
       tecnologias: [reactLogo, cssLogo],
       descripcion:
-        "  Este es un proyecto que saque de un curso de la plataforma Udemy que me encuentro realizando sobre React Hooks, Redux y el stack MERN. En el mismo se ingresa un monto inicial de dinero, luego se van ingresando los gastos con una descripción y el programa calcula cual es el balance de tu presupuesto inicial, te va mostrando el historico de gastos ingresados y te advierte con colores según el porcentaje de presupuesto restante.",
+        "Este es un proyecto que saque de un curso de la plataforma Udemy que me encuentro realizando sobre React Hooks, Redux y el stack MERN. En el mismo se ingresa un monto inicial de dinero, luego se van ingresando los gastos con una descripción y el programa calcula cual es el balance de tu presupuesto inicial, te va mostrando el historico de gastos ingresados y te advierte con colores según el porcentaje de presupuesto restante.",
       repo: "https://github.com/cmachado17/gasto-semanal",
       demo: "https://zen-booth-ba2fa6.netlify.app/",
     },
@@ -62,7 +62,7 @@ const MultiCarousel = () => {
       nombre: "TGIF Government",
       tecnologias: [javascriptLogo, cssLogo, htmlLogo],
       descripcion:
-        " Proyecto realizado para el bootcamp de desarrollo web. Pagina web sobre los congresistas de Estados Unidos, obtenidos a traves de una API, la petición se realiza a traves de Vue.js.",
+        " Proyecto realizado para el bootcamp de desarrollo web. Pagina web sobre los congresistas de Estados Unidos, obtenidos a traves de una API, la petición se realiza a través de Vue.js.",
       repo: "https://github.com/cmachado17/TGIF-Government-live-data",
       demo: "https://cmachado17.github.io/TGIF-Government-live-data/",
     },

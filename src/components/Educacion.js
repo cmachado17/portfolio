@@ -44,16 +44,16 @@ const Educacion = () => {
         </Row>
       </div>
       <div className="container text-center text-white grey-border pt-5">
-        <h3>Educación academica</h3>
+        <h3>Educación académica</h3>
         <div className="separador"></div>
         <Row className="my-5">
           <Col sm={12} md={6} >
-            <h4>Tecnico en programación informatica</h4>
-            <p>Universidad Nacional de San Martin</p>
+            <h4>Técnico en programación informática</h4>
+            <p>Universidad Nacional de San Martín</p>
             <p>2019 - 2022</p>
           </Col>
           <Col sm={12} md={6}>
-            <h4>Bachiller Tecnico en bienes y servicios</h4>
+            <h4>Bachiller Técnico en bienes y servicios</h4>
             <p>E.E.T. Nº 2 "Alemania"</p>
             <p>2007 - 2012</p>
           </Col>
