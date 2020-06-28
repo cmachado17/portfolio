@@ -3,7 +3,7 @@ import Modal from "react-bootstrap/Modal";
 import Button from "react-bootstrap/Button";
 import Image from "react-bootstrap/Image";
 
-const ModalCertificado = (props) => {
+const ModalMindhub = (props) => {
 
 
   return (
@@ -21,4 +21,4 @@ const ModalCertificado = (props) => {
   );
 };
 
-export default ModalCertificado;
+export default ModalMindhub;

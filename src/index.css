@@ -110,9 +110,12 @@ code {
   color: white;
 }
 
+.close span{
+  color: rgb(255, 0, 0);
+}
 /* CAROUSEL */
 .altura-cards {
-  min-height: 680px;
+  min-height: 700px;
 }
 
 .btn-green-wather {
@@ -199,3 +202,4 @@ ul {
 .lista-contacto i{
   color: rgb(48, 158, 121) !important;
 }
+

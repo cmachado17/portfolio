@@ -4,6 +4,11 @@ import Col from "react-bootstrap/Col";
 import Button from "react-bootstrap/Button";
 import ModalCertificado from "./ModalCertificado";
 
+//certificados
+import Comit from './styles/img/CertificadoComit.jpg';
+import Mindhub from './styles/img/CertificadoMindhub.png';
+import ModalMindhub from "./ModalMindhub";
+
 const Educacion = () => {
   const [abrirModal, setAbrirModal] = useState(false);
 
@@ -13,6 +18,16 @@ const Educacion = () => {
 
   const handleCerrarModal = (e) => {
     setAbrirModal(false);
+  };
+
+  const [abrirModalMindhub, setAbrirModalMindhub] = useState(false);
+
+  const handleAbrirModalMindhub = (e) => {
+    setAbrirModalMindhub(true);
+  };
+
+  const handleCerrarModalMindhub = (e) => {
+    setAbrirModalMindhub(false);
   };
 
   return (
@@ -59,14 +74,24 @@ const Educacion = () => {
             <h4>Desarrollo web full stack</h4>
             <p>Mindhub</p>
             <p>2019 - 2019</p>
-            <Button className="btn-green-wather">Ver certificado</Button>
+            <Button className="btn-green-wather" onClick={handleAbrirModalMindhub}>Ver certificado</Button>
           </Col>
         </Row>
       </div>
       <ModalCertificado
         show={abrirModal}
         handleCerrarModal={handleCerrarModal}
+        titulo="Desarrollo de aplicaciones en React"
+        certificado={Comit}
       />
+           <ModalMindhub
+        show={abrirModalMindhub}
+        handleCerrarModal={handleCerrarModalMindhub}
+        titulo="Desarrollo web full stack"
+        certificado={Mindhub}
+      />
+
+
     </Fragment>
   );
 };
