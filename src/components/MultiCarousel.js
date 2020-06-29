@@ -11,6 +11,7 @@ import tgifPage from "./styles/img/tgif-page.png";
 import NYSLPage from "./styles/img/NYSL-Page.png";
 import anotadorLlamadas from "./styles/img/anotador-llamadas.png";
 import gastoSemanal from "./styles/img/gasto-semanal.png";
+import portfolio from "./styles/img/portfolio.png";
 //Logos tecnologias
 import htmlLogo from "./styles/img/html-5.png";
 import cssLogo from "./styles/img/css.png";
@@ -65,6 +66,15 @@ const MultiCarousel = () => {
         " Proyecto realizado para el bootcamp de desarrollo web. Pagina web sobre los congresistas de Estados Unidos, obtenidos a traves de una API, la petición se realiza a través de Vue.js.",
       repo: "https://github.com/cmachado17/TGIF-Government-live-data",
       demo: "https://cmachado17.github.io/TGIF-Government-live-data/",
+    },
+    {
+      imagen: portfolio,
+      nombre: "Portfolio/Cv web",
+      tecnologias: [reactLogo, cssLogo],
+      descripcion:
+        "Esto es como la obra dentro de otra obra. Este proyecto lo pense primero como un portfolio, luego como un curriculum web, termino siendo ambos. Desarrollado con React, React Bootstrap y Css.",
+      repo: "https://github.com/cmachado17/portfolio",
+      demo: "https://upbeat-jennings-fc82a9.netlify.app/",
     },
   ];
 
