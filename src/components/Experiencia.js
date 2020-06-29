@@ -34,7 +34,7 @@ const Experiencia = () => {
                 <p>2014 - Actualmente</p>
                 <ul>
                   <li>Presentación de documentos</li>
-                  <li>Elaboracón de presentaciones</li>
+                  <li>Elaboración de presentaciones</li>
                   <li>Retiro de pagos</li>
                   <li>Control de legajos</li>
                 </ul>

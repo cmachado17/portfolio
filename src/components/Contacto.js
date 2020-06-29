@@ -34,7 +34,7 @@ const Contacto = () => {
             <a className="btn btn-block btn-green-wather" href={pdf} download="CVMachadoCristian">
               Descargá mi Curriculum
             </a>
-            <Button block className="btn-green-wather" href="#" target="noopener noreferrer">
+            <Button block className="btn-green-wather" href="https://api.whatsapp.com/send?phone=541133443419" target="noopener noreferrer">
               Escribime por Whatsapp
             </Button>
           </Col>

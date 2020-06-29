@@ -77,6 +77,27 @@ const Educacion = () => {
             <Button className="btn-green-wather" onClick={handleAbrirModalMindhub}>Ver certificado</Button>
           </Col>
         </Row>
+        <h3>Otros conocimientos</h3>
+        <div className="separador"></div>
+        <Row className="my-5">
+
+          <Col sm={12} md={6}  className="my-3">
+            <h4>Inglés</h4>
+          <ul>
+            <li>Lectura: Avanzado</li>
+            <li>Oral: Intermedio</li>
+            <li>Compresión: Intermedio</li>
+          </ul>
+         
+          </Col>
+          <Col sm={12} md={6} className="my-3">
+            <h4>Conocimientos de PC</h4>
+            <ul>
+            <li>Armado y reparación</li>
+            <li>Paquete Office</li>
+          </ul>
+          </Col>
+        </Row>
       </div>
       <ModalCertificado
         show={abrirModal}

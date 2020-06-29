@@ -16,26 +16,48 @@ const SobreMi = () => {
          
         </Row>
       </div>
-      <div className="container">
+      <div className="container grey-border p-5">
         <Tab.Container id="left-tabs-example" defaultActiveKey="first">
           <Row>
-            <Col sm={3}>
-              <Nav variant="pills" className="flex-column">
+            <Col sm={3} md={6} >
+              <Nav variant="pills" className="flex-column text-center">
                 <Nav.Item>
-                  <Nav.Link eventKey="first">Tab 1</Nav.Link>
+                  <Nav.Link eventKey="first" className="btn-green-wather cualidades" >Profesional</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <Nav.Link eventKey="second">Tab 2</Nav.Link>
+                  <Nav.Link eventKey="second" className="btn-green-wather cualidades" >Social</Nav.Link>
                 </Nav.Item>
+                <Nav.Item>
+                  <Nav.Link eventKey="third" className="btn-green-wather cualidades" >Personal</Nav.Link>
+                </Nav.Item>
+                
               </Nav>
             </Col>
-            <Col sm={9}>
+            <Col sm={9} md={6} className="mt-4">
               <Tab.Content>
                 <Tab.Pane eventKey="first">
-                asdasd1
+                <ul>
+                  <li>Proactivo</li>
+                  <li>Responsable</li>
+                  <li>Capacidad de adaptación</li>
+                  <li>Detallista</li>
+                </ul>
                 </Tab.Pane>
                 <Tab.Pane eventKey="second">
-              asdasda4
+                <ul>
+                  <li>Empatico</li>
+                  <li>Trabajo en equipo</li>
+                  <li>Escucha atenta</li>
+                  <li>Respetuoso</li>
+                </ul>
+                </Tab.Pane>
+                <Tab.Pane eventKey="third">
+                <ul>
+                  <li>Gamer</li>
+                  <li>Amante de la música</li>
+                  <li>Curioso</li>
+                  
+                </ul>
                 </Tab.Pane>
               </Tab.Content>
             </Col>

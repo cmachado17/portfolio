@@ -18,7 +18,7 @@ function App() {
       <MultiCarousel />
       <Educacion />
       <Experiencia />
-      {/* <SobreMi />  */}
+      <SobreMi /> 
       <Contacto />
     </Fragment>
   );

@@ -94,6 +94,10 @@ code {
 
 /* HOME */
 
+.home{
+  font-size: 1.3rem;
+}
+
 .separador {
   background-color: rgb(34, 208, 149);
   height: 0.25rem;
@@ -182,6 +186,12 @@ code {
 ul {
   text-align: justify;
   list-style-position: inside;
+}
+
+/* SOBRE MI */
+
+.cualidades{
+  margin: 0.5rem 0;
 }
 
 /* CONTACTO */
